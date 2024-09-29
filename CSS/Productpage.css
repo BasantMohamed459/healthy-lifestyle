@@ -1,0 +1,53 @@
+:root {
+   
+    --background-color : linear-gradient(to bottom,#ffecf0,rgb(234, 187, 187));
+    /* #8ddcd4 */
+    --font-color:white;
+    --logo-font:cursive;
+    --cursor-shape:pointer;
+    --font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+  /* background-color: var(--background-color); */
+    margin: 0px;
+    background-image:var(--background-color) ;
+
+    /* width: auto;
+    height: auto; */
+}
+
+.flavors {
+    
+    width: 100%;
+    height: fit-content;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+   
+    
+}
+.flavors-types {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.flavors-types img {
+    height: 300px;
+    width: 300px;
+    display: block;
+}
+.flavors-types a {
+    text-decoration: none;
+}
+.flavors-types-item {
+    margin-left: 50px;
+}

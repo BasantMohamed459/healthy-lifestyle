@@ -1,0 +1,268 @@
+:root {
+   
+    --background-color : linear-gradient(to bottom,#ffecf0,rgb(234, 187, 187));
+    /* #8ddcd4 */
+    --font-color:white;
+    --logo-font:cursive;
+    --cursor-shape:pointer;
+    --font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+  /* background-color: var(--background-color); */
+    margin: 0px;
+    background-image:var(--background-color) ;
+
+    /* width: auto;
+    height: auto; */
+}
+
+::selection {
+    color: var(--background-color);
+    background-color: #66c46b;
+}
+
+nav {
+    /* #ffecf0 */
+    /* #1e5b68  */
+    background-color: #74b75b ;
+    color: var(--font-color);
+    font-family:var(--font-family) ;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #6fbab3 solid 2px;
+    box-shadow: 7px 1px 84px #6fbab3;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+nav .right-nav:hover,
+.left-nav:hover {
+    /* background-color: #e9b8c2; */
+    color: #345e04;
+    height:50px;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid #345e04;
+    
+    cursor: var( --cursor-shape);
+}
+
+.center-nav {
+   /* #6fbab3 */
+    color:   #345e04;
+    width: 592px;
+    font-family:var(--logo-font) ;
+    font-size: 47px;
+    align-self: center;
+    cursor: var( --cursor-shape);
+   
+}
+
+.welcome-word-science {
+    color: var(--font-color);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+   
+
+
+}
+.welcome-word-science h1 {
+    margin-top: 231px;
+    text-align: -webkit-match-parent;
+}
+
+.welcome-word-science  img {
+    margin: 20px;
+    width: 80%;
+    height: 40%;
+    border-radius:100px ;
+    -webkit-border-radius:100px ;
+    -moz-border-radius:100px ;
+    -ms-border-radius:100px ;
+    -o-border-radius:100px ;
+}
+
+.Approach {
+    
+    width: 100%;
+    height: fit-content;
+    font-family: var(--font-family);
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.closing {
+    width: 100%;
+    height: fit-content;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    /* margin: 10px; */
+
+}
+
+.closing-top {
+
+    color: var(--font-color);
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 60px;
+  
+
+}
+
+.closing-down button {
+    background-color:  #69bf2c ;
+    height: 100px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid 5cbdb9;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: block;
+    margin-left: 44%;
+}
+.closing-down button:hover {
+    /* #2d817e  */
+    background-color: #2d8131 ;
+    cursor: var( --cursor-shape);
+    transition: 0.5s 0.1s;
+    -webkit-transition: 0.5s 0.1s;
+    -moz-transition: 0.5s 0.1s;
+    -ms-transition: 0.5s 0.1s;
+    -o-transition: 0.5s 0.1s;
+}
+
+footer {
+    background-color: #74b75b;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left-footer {
+    background-color: #74b75b;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.sign-up  input {
+    width: 80%;
+    height: 70px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 30px;
+}
+.sign-up {
+    position: relative;
+}
+
+.send-btn {
+    position: absolute;
+    top: 57px;
+    left: 281px;
+}
+.send-btn img {
+    width: 74px;
+    height: 74px;
+}
+.sign-up a {
+    text-decoration: none;
+    color: #345e04;
+}
+
+.sign-up a:hover {
+    border-bottom:3px solid #345e04 ;
+}
+.links ul  {
+    list-style: none;
+}
+.links ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.links ul li a:hover {
+    color: #345e04;
+    border-bottom:3px solid #345e04 ;
+    
+}
+.link-with-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.right-footer video {
+    width: 90%;
+    height: 500px;
+}

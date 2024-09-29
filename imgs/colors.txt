@@ -1,0 +1,27 @@
+Pinky: #fbe3e8
+
+Blue Greeny: #5cbdb9
+
+Teeny Greeny: #ebf6f5
+
+Sand Tan: #e1b382
+
+Sand Tan Shadow: #c89666
+
+Night Blue: #2d545e
+
+Night Blue Shadow: #12343b
+
+Brightly Orange Number 2: #f43a09
+
+Grandpa Orange: #ffb766
+
+Grey Blue Green: #c2edda
+
+Live Green: #68d388
+
+Brightly Orange: #ff1e00
+
+Dimly Blue: #e8f9fd
+
+Alert/Highlight Green: #59ce8f
